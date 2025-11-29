@@ -1,1 +1,9 @@
-#spring.application.name=product-service
+server:
+  port: 8082
+
+spring:
+  profiles:
+    active: local
+
+  application:
+    name: product-service

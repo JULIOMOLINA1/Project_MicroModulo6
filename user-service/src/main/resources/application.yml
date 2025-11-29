@@ -1,3 +1,9 @@
-# --------------------------------------
-#  Empty file to override default Spring Boot configurations
-# --------------------------------------
+server:
+  port: 8081
+
+spring:
+  profiles:
+    active: local
+
+  application:
+    name: user-service

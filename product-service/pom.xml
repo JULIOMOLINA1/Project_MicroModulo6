@@ -76,21 +76,21 @@
 			<scope>test</scope>
 		</dependency>
 
-        <!-- Spring Cloud Config Client -->
+        <!-- Spring Cloud Config Client
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-config</artifactId>
-        </dependency>
+        </dependency>-->
 
-        <!-- Spring Cloud Starter -->
+        <!-- Spring Cloud Starter
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-bootstrap</artifactId>
-        </dependency>
+        </dependency>-->
 
 	</dependencies>
 
-    <!-- Spring Cloud Dependencies -->
+    <!-- Spring Cloud Dependencies
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -101,7 +101,7 @@
                 <scope>import</scope>
             </dependency>
         </dependencies>
-    </dependencyManagement>
+    </dependencyManagement>-->
 
 	<build>
 		<plugins>
