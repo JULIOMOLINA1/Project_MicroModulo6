@@ -14,9 +14,13 @@ spring:
           uri: http://product-service-dev:8082
           predicates:
             - Path=/api/products/**
+          filters:
+            - StripPrefix=0
 
         - id: order-service
-          uri: http://product-service-dev:8083
+          uri: http://order-service-dev:8083
           predicates:
             - Path=/api/orders/**
+          filters:
+            - StripPrefix=0
 
